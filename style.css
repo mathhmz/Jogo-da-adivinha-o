@@ -34,10 +34,7 @@
 
   }
 
-  .mainFrameScreen1{
-    display: none;
-  }
-
+  .hide{display: none}
   
   .pageMainFrame {
     display: flex;
