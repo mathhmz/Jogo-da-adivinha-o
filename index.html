@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da adivinhação</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
 </head>
-<body>                                          
+<body>
+    
+    <main class="pageMain">
+        <div class="pageMainFrame">
+            <div class="mainFrameText">
+                <h1 class="mainFrameTextTitle">Jogo da adivinhação</h1>
+                <p class="mainFrameTextParagraph">Adivinhe o número entre 0 e 10</p>
+            </div>
+            <div class="mainFrameOption">
+                <form >
+                    <input type="text" min="1" max="10" pattern="[1-9]|10" class="mainFrameInput">
+                    <button class="mainFrameButton">Tentar</button>
+                </form>
+            </div>
+        </div>
+    </main>
     
 </body>
 </html>
